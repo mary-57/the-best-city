@@ -1,0 +1,53 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+
+    background-color: white;
+    height: 100px;
+    /* position: fixed; */
+    width: 100%;
+
+}
+
+.wrapper-menu-content {
+    background-color: white;
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(16, 191, 214);
+    margin: 20px;
+  
+}
+
+.menu a:hover {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(11, 55, 94);
+}
+
+.nav-menu {
+    display: flex;
+    float: right;
+    margin-left: 600px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+
